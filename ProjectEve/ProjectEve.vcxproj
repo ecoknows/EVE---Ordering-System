@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{4C319545-9188-405B-864B-230D98425396}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ProjectEve</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutJake.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutJayson.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutJerico.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutLovely.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutRoxie.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutUsInfo.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AboutUsPage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage1.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage2.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage3.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage4.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Burger.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Chicken.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="DataHandler.h" />
+    <ClInclude Include="DataReader.h" />
+    <ClInclude Include="DataWriter.h" />
+    <ClInclude Include="HelpPage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="HelpPageInfo.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="HomePage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="MainInterface.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OrderConfirmation.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Ordering.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="OrderingPage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="OrderingPage1.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="OrderingPage2.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="OrderSummary.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Pasta.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="RiceMeals.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TrackingPage.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+    <ClInclude Include="TrackingUserLayout.h">
+      <FileType>CppControl</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutJake.resx">
+      <DependentUpon>AboutJake.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutJayson.resx">
+      <DependentUpon>AboutJayson.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutJerico.resx">
+      <DependentUpon>AboutJerico.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutLovely.resx">
+      <DependentUpon>AboutLovely.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutRoxie.resx">
+      <DependentUpon>AboutRoxie.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsInfo.resx">
+      <DependentUpon>AboutUsInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsPage.resx">
+      <DependentUpon>AboutUsPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage1.resx">
+      <DependentUpon>AllFoodsPage1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage2.resx">
+      <DependentUpon>AllFoodsPage2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage3.resx">
+      <DependentUpon>AllFoodsPage3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage4.resx">
+      <DependentUpon>AllFoodsPage4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Burger.resx">
+      <DependentUpon>Burger.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chicken.resx">
+      <DependentUpon>Chicken.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPage.resx">
+      <DependentUpon>HelpPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPageInfo.resx">
+      <DependentUpon>HelpPageInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterface.resx">
+      <DependentUpon>MainInterface.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderConfirmation.resx">
+      <DependentUpon>OrderConfirmation.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordering.resx">
+      <DependentUpon>Ordering.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage.resx">
+      <DependentUpon>OrderingPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage1.resx">
+      <DependentUpon>OrderingPage1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage2.resx">
+      <DependentUpon>OrderingPage2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderSummary.resx">
+      <DependentUpon>OrderSummary.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pasta.resx">
+      <DependentUpon>Pasta.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiceMeals.resx">
+      <DependentUpon>RiceMeals.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackingPage.resx">
+      <DependentUpon>TrackingPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackingUserLayout.resx">
+      <DependentUpon>TrackingUserLayout.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutUsInfo.cpp" />
+    <ClCompile Include="AboutUsPage.cpp" />
+    <ClCompile Include="AllFoodsPage1.cpp" />
+    <ClCompile Include="AllFoodsPage2.cpp" />
+    <ClCompile Include="AllFoodsPage3.cpp" />
+    <ClCompile Include="AllFoodsPage4.cpp" />
+    <ClCompile Include="Burger.cpp" />
+    <ClCompile Include="Chicken.cpp" />
+    <ClCompile Include="DataHandler.cpp" />
+    <ClCompile Include="DataReader.cpp" />
+    <ClCompile Include="DataWriter.cpp" />
+    <ClCompile Include="EveVoiceCommands.cpp" />
+    <ClCompile Include="HelpPage.cpp" />
+    <ClCompile Include="HomePage.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainInterface.cpp" />
+    <ClCompile Include="OrderConfirmation.cpp" />
+    <ClCompile Include="Ordering.cpp" />
+    <ClCompile Include="OrderingPage.cpp" />
+    <ClCompile Include="OrderingPage1.cpp" />
+    <ClCompile Include="OrderingPage2.cpp" />
+    <ClCompile Include="OrderSummary.cpp" />
+    <ClCompile Include="Pasta.cpp" />
+    <ClCompile Include="RiceMeals.cpp" />
+    <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="TrackingPage.cpp" />
+    <ClCompile Include="TrackingUserLayout.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page">
+      <UniqueIdentifier>{55ad1db7-ee6f-4e3c-939e-f2d651f48d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page">
+      <UniqueIdentifier>{a855a9c6-9ae2-4ef1-992e-c2c524e11374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Voice Command">
+      <UniqueIdentifier>{0b217169-67de-454c-8bdf-ef1f6f49bb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Home Page">
+      <UniqueIdentifier>{df1a5f55-f07e-4902-b1a0-51d348d62002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Home Page">
+      <UniqueIdentifier>{0f45075d-c421-495a-a06c-b900161499ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Interface">
+      <UniqueIdentifier>{64d748fd-a14d-4e27-ba35-e8d4405ee46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page\General Foods Nav">
+      <UniqueIdentifier>{21b57456-8751-41a2-8a4a-91556f4f249e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page\All Foods Nav">
+      <UniqueIdentifier>{3cfd7399-ddf0-4fba-be53-8d0e519abe05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page\General Foods Nav">
+      <UniqueIdentifier>{98d7c67b-30ad-481c-aebf-0c3c6b507845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page\All Foods Nav">
+      <UniqueIdentifier>{18e891d4-c312-4736-8a10-a537b7b25930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page\General Foods User Control">
+      <UniqueIdentifier>{1404740b-751e-41e6-8b68-08a677e43d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page\General Foods User Control">
+      <UniqueIdentifier>{5e4816f1-21e7-4af9-bc76-b2cb58d129d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page\Order Summary">
+      <UniqueIdentifier>{b3a3c12f-ab67-4132-98c8-c009175db77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page\Order Summary">
+      <UniqueIdentifier>{82d8910f-0826-48db-bfbf-112f451d1cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tracking Page">
+      <UniqueIdentifier>{27a094c8-dec1-423e-b869-b7d885fce483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tracking Page">
+      <UniqueIdentifier>{757bf407-d646-435e-805a-355e8a222fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Help Page">
+      <UniqueIdentifier>{99a2f80e-1c28-4cfc-9718-e4552bda2050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Help Page">
+      <UniqueIdentifier>{0cfb9f68-a9e5-4585-886c-b3a1e2d84857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\About Us Page">
+      <UniqueIdentifier>{374e28f0-c2f4-498e-8c83-86783bc8d701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\About Us Page">
+      <UniqueIdentifier>{0f14dadf-f8e8-43f8-967c-fafdc988d7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ordering Page\Order Confirmation">
+      <UniqueIdentifier>{fa625e67-1b13-482c-a2f0-0939eb147316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ordering Page\Order Confirmation">
+      <UniqueIdentifier>{f955e26d-3372-4c47-911f-79418f0caa7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderingPage.h">
+      <Filter>Header Files\Ordering Page</Filter>
+    </ClInclude>
+    <ClInclude Include="HomePage.h">
+      <Filter>Header Files\Home Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Ordering.h">
+      <Filter>Header Files\Ordering Page</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderingPage1.h">
+      <Filter>Header Files\Ordering Page\General Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderingPage2.h">
+      <Filter>Header Files\Ordering Page\General Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage1.h">
+      <Filter>Header Files\Ordering Page\All Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage2.h">
+      <Filter>Header Files\Ordering Page\All Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage3.h">
+      <Filter>Header Files\Ordering Page\All Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="AllFoodsPage4.h">
+      <Filter>Header Files\Ordering Page\All Foods Nav</Filter>
+    </ClInclude>
+    <ClInclude Include="Burger.h">
+      <Filter>Header Files\Ordering Page\General Foods User Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Chicken.h">
+      <Filter>Header Files\Ordering Page\General Foods User Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Header Files\Ordering Page</Filter>
+    </ClInclude>
+    <ClInclude Include="Pasta.h">
+      <Filter>Header Files\Ordering Page\General Foods User Control</Filter>
+    </ClInclude>
+    <ClInclude Include="RiceMeals.h">
+      <Filter>Header Files\Ordering Page\General Foods User Control</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderSummary.h">
+      <Filter>Header Files\Ordering Page\Order Summary</Filter>
+    </ClInclude>
+    <ClInclude Include="DataReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackingPage.h">
+      <Filter>Header Files\Tracking Page</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackingUserLayout.h">
+      <Filter>Header Files\Tracking Page</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpPage.h">
+      <Filter>Header Files\Help Page</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpPageInfo.h">
+      <Filter>Header Files\Help Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutUsPage.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutUsInfo.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutJerico.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutRoxie.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutJake.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutJayson.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutLovely.h">
+      <Filter>Header Files\About Us Page</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderConfirmation.h">
+      <Filter>Header Files\Ordering Page\Order Confirmation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderingPage.cpp">
+      <Filter>Source Files\Ordering Page</Filter>
+    </ClCompile>
+    <ClCompile Include="EveVoiceCommands.cpp">
+      <Filter>Source Files\Voice Command</Filter>
+    </ClCompile>
+    <ClCompile Include="HomePage.cpp">
+      <Filter>Source Files\Home Page</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInterface.cpp">
+      <Filter>Source Files\Main Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Ordering.cpp">
+      <Filter>Source Files\Ordering Page</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderingPage2.cpp">
+      <Filter>Source Files\Ordering Page\General Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderingPage1.cpp">
+      <Filter>Source Files\Ordering Page\General Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="AllFoodsPage3.cpp">
+      <Filter>Source Files\Ordering Page\All Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="AllFoodsPage2.cpp">
+      <Filter>Source Files\Ordering Page\All Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="AllFoodsPage1.cpp">
+      <Filter>Source Files\Ordering Page\All Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="AllFoodsPage4.cpp">
+      <Filter>Source Files\Ordering Page\All Foods Nav</Filter>
+    </ClCompile>
+    <ClCompile Include="Burger.cpp">
+      <Filter>Source Files\Ordering Page\General Foods User Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Chicken.cpp">
+      <Filter>Source Files\Ordering Page\General Foods User Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Pasta.cpp">
+      <Filter>Source Files\Ordering Page\General Foods User Control</Filter>
+    </ClCompile>
+    <ClCompile Include="RiceMeals.cpp">
+      <Filter>Source Files\Ordering Page\General Foods User Control</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderSummary.cpp">
+      <Filter>Source Files\Ordering Page\Order Summary</Filter>
+    </ClCompile>
+    <ClCompile Include="DataReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackingPage.cpp">
+      <Filter>Source Files\Tracking Page</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackingUserLayout.cpp">
+      <Filter>Source Files\Tracking Page</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpPage.cpp">
+      <Filter>Source Files\Help Page</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutUsInfo.cpp">
+      <Filter>Source Files\About Us Page</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutUsPage.cpp">
+      <Filter>Source Files\About Us Page</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderConfirmation.cpp">
+      <Filter>Source Files\Ordering Page\Order Confirmation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainInterface.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordering.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderingPage2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage1.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage2.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage3.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllFoodsPage4.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Burger.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chicken.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pasta.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiceMeals.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderSummary.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackingPage.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackingUserLayout.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPage.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpPageInfo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutJerico.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsInfo.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsPage.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutJake.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutJayson.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutLovely.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutRoxie.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderConfirmation.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

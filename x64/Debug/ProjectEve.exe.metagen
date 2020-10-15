@@ -1,0 +1,713 @@
+  ProjectEve.AboutJake.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutJayson.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutJerico.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutLovely.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutRoxie.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutUsInfo.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AboutUsPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AllFoodsPage1.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AllFoodsPage2.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AllFoodsPage3.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.AllFoodsPage4.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.Burger.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.Chicken.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.HelpPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.HelpPageInfo.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.HomePage.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.MainInterface.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.OrderConfirmation.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.Ordering.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.OrderingPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.OrderingPage1.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.OrderingPage2.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.OrderSummary.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.Pasta.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.RiceMeals.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.SplashScreen.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.TrackingPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectEve.TrackingUserLayout.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ProjectEve, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ProjectEve.AboutUsInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ButtonHandler(): PrivateScope, Public, HideBySig
+    JericoButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    RoxieButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    JaysonButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LovelynButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    JakeButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.AboutJerico: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.AboutJake: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.AboutJayson: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.AboutLovely: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.AboutRoxie: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.AboutUsPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ProjectEve.AboutUsInfo aboutUsInfo : Public, Static
+    ProjectEve.AboutJerico aboutJerico : Public, Static
+    ProjectEve.AboutJake aboutJake : Public, Static
+    ProjectEve.AboutRoxie aboutRoxie : Public, Static
+    ProjectEve.AboutLovely aboutLovely : Public, Static
+    ProjectEve.AboutJayson aboutJayson : Public, Static
+  Methods:
+    PanelHandler(): PrivateScope, Public, HideBySig
+Class Product: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String name : Public
+    Int32 quantity : Public
+    Int32 price : Public
+Class ProjectEve.Burger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Once : Public
+    System.Windows.Forms.ColumnHeader Food : Public
+    System.Windows.Forms.ColumnHeader Quantity : Public
+    System.Windows.Forms.ColumnHeader Price : Public
+    System.Windows.Forms.PictureBox pictureBox1 : Public
+    Product hotdogStruct : Public, Static
+    Product cheeseStruct : Public, Static
+    Product beefStruct : Public, Static
+    Product chickenStruct : Public, Static
+    Product footlongStruct : Public, Static
+    Product cokeStruct : Public, Static
+    Product spriteStruct : Public, Static
+    Product icedteaStruct : Public, Static
+    Product pepsiStruct : Public, Static
+    Int32 cheeseBurgerPrice : Public, Static
+    Int32 beefBurgerPrice : Public, Static
+    Int32 hotDogPrice : Public, Static
+    Int32 chickenBurgerPrice : Public, Static
+    Int32 footlongPrice : Public, Static
+    Int32 cokePrice : Public, Static
+    Int32 spritePrice : Public, Static
+    Int32 icedteaPrice : Public, Static
+    Int32 pepsiPrice : Public, Static
+    Int32 totalPrice : Public, Static
+    Int32 totalDataPrice : Public, Static
+    System.Windows.Forms.ListViewItem hotdogItem : Public, Static
+    System.Windows.Forms.ListViewItem cheeseItem : Public, Static
+    System.Windows.Forms.ListViewItem beefItem : Public, Static
+    System.Windows.Forms.ListViewItem chickenItem : Public, Static
+    System.Windows.Forms.ListViewItem footlongItem : Public, Static
+    System.Windows.Forms.ListViewItem cokeItem : Public, Static
+    System.Windows.Forms.ListViewItem spriteItem : Public, Static
+    System.Windows.Forms.ListViewItem icedteaItem : Public, Static
+    System.Windows.Forms.ListViewItem pepsiItem : Public, Static
+    Int32 origHotDogLeftPosition : Public, Static
+    Int32 origCheeseBurgerLeftPosition : Public, Static
+    Int32 origBeefBurgerLeftPosition : Public, Static
+    Int32 origChickenBurgerLeftPosition : Public, Static
+    Int32 origFootLongLeftPosition : Public, Static
+    Int32 origCokeLeftPosition : Public, Static
+    Int32 origSpriteLeftPosition : Public, Static
+    Int32 origIcedTeaLeftPosition : Public, Static
+    Int32 origPepsiLeftPosition : Public, Static
+    System.Windows.Forms.ListView summarizedOrder : Public, Static
+    System.Windows.Forms.Label totalLabel : Public, Static
+    System.Windows.Forms.Label label1 : Public, Static
+    System.Windows.Forms.Button hotdogBtn : Public, Static
+    System.Windows.Forms.Button footlongBtn : Public, Static
+    System.Windows.Forms.Button cheeseburgerBtn : Public, Static
+    System.Windows.Forms.Button beefburgerBtn : Public, Static
+    System.Windows.Forms.Button chickenburgerBtn : Public, Static
+    System.Windows.Forms.Button cokeBtn : Public, Static
+    System.Windows.Forms.Button spriteBtn : Public, Static
+    System.Windows.Forms.Button icedteaBtn : Public, Static
+    System.Windows.Forms.Button pepsiBtn : Public, Static
+    System.Windows.Forms.Label cheeseQuantity : Public, Static
+    System.Windows.Forms.Label pepsiQuantity : Public, Static
+    System.Windows.Forms.Label icedteaQuantity : Public, Static
+    System.Windows.Forms.Label spriteQuantity : Public, Static
+    System.Windows.Forms.Label cokeQuantity : Public, Static
+    System.Windows.Forms.Label footlongQuantity : Public, Static
+    System.Windows.Forms.Label hotdogQuantity : Public, Static
+    System.Windows.Forms.Label chickenQuantity : Public, Static
+    System.Windows.Forms.Label beefQuantity : Public, Static
+  Methods:
+    TotalPriceHandler(): PrivateScope, Public, Static, HideBySig
+    LabelAdjuster(Label, Int32 IsConst, Int32 IsConst): PrivateScope, Public, HideBySig
+    ButtonFunction(MouseEventArgs, Product, ListViewItem, Label, Int32& IsExplicitlyDereferenced, Int32 IsConst): PrivateScope, Public, HideBySig
+    BurgerButtonHandler(): PrivateScope, Public, HideBySig
+    MouseDownEventHandler(MouseEventArgs, Label, Int32 IsConst, Int32& IsExplicitlyDereferenced): PrivateScope, Public, HideBySig
+    HotdogButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CheeseBurgerButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    BeefBurgerButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    ChickenBurgerButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    FootLongButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CokeButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SpriteButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IcedTeaButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    PepsiButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IsCheckOut(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    OrderAgainButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CheckOutButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LabelGiver(): PrivateScope, Public, HideBySig
+    DataInsertion(Product): PrivateScope, Public, HideBySig
+    ButtonClickDataInseration(Product, Int32): PrivateScope, Public, HideBySig
+Class ProjectEve.Chicken: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Once : Public
+    System.Windows.Forms.ColumnHeader Food : Public
+    System.Windows.Forms.ColumnHeader Quantity : Public
+    System.Windows.Forms.ColumnHeader Price : Public
+    System.Windows.Forms.PictureBox pictureBox1 : Public
+    Product butteredStruct : Public, Static
+    Product friedStruct : Public, Static
+    Product spicyStruct : Public, Static
+    Product roastedStruct : Public, Static
+    Product cokeStruct : Public, Static
+    Product spriteStruct : Public, Static
+    Product icedteaStruct : Public, Static
+    Product pepsiStruct : Public, Static
+    Product riceStruct : Public, Static
+    Int32 butteredPrice : Public, Static
+    Int32 friedPrice : Public, Static
+    Int32 spicyPrice : Public, Static
+    Int32 roastedPrice : Public, Static
+    Int32 cokePrice : Public, Static
+    Int32 spritePrice : Public, Static
+    Int32 icedteaPrice : Public, Static
+    Int32 pepsiPrice : Public, Static
+    Int32 ricePrice : Public, Static
+    Int32 totalPrice : Public, Static
+    System.Windows.Forms.ListViewItem butteredItem : Public, Static
+    System.Windows.Forms.ListViewItem friedItem : Public, Static
+    System.Windows.Forms.ListViewItem spicyItem : Public, Static
+    System.Windows.Forms.ListViewItem roastedItem : Public, Static
+    System.Windows.Forms.ListViewItem cokeItem : Public, Static
+    System.Windows.Forms.ListViewItem spriteItem : Public, Static
+    System.Windows.Forms.ListViewItem icedteaItem : Public, Static
+    System.Windows.Forms.ListViewItem pepsiItem : Public, Static
+    System.Windows.Forms.ListViewItem riceItem : Public, Static
+    Int32 origButteredChickenLeftPosition : Public, Static
+    Int32 origFriedChickenLeftPosition : Public, Static
+    Int32 origSpicyChickenLeftPosition : Public, Static
+    Int32 origRoastedChickenLeftPosition : Public, Static
+    Int32 origCokeLeftPosition : Public, Static
+    Int32 origSpriteLeftPosition : Public, Static
+    Int32 origIcedTeaLeftPosition : Public, Static
+    Int32 origPepsiLeftPosition : Public, Static
+    Int32 origRiceLeftPosition : Public, Static
+    Int32 totalDataPrice : Public, Static
+    System.Windows.Forms.Label butteredQuantity : Public, Static
+    System.Windows.Forms.Label friedQuantity : Public, Static
+    System.Windows.Forms.Label spicyQuantity : Public, Static
+    System.Windows.Forms.Label roastedQuantity : Public, Static
+    System.Windows.Forms.Label cokeQuantity : Public, Static
+    System.Windows.Forms.Label spriteQuantity : Public, Static
+    System.Windows.Forms.Label icedteaQuantity : Public, Static
+    System.Windows.Forms.Label pepsiQuantity : Public, Static
+    System.Windows.Forms.Label riceQuantity : Public, Static
+    System.Windows.Forms.Label label1 : Public, Static
+    System.Windows.Forms.Label totalLabel : Public, Static
+    System.Windows.Forms.Button butteredBtn : Public, Static
+    System.Windows.Forms.Button roastedBtn : Public, Static
+    System.Windows.Forms.Button spicyBtn : Public, Static
+    System.Windows.Forms.Button friedBtn : Public, Static
+    System.Windows.Forms.Button pepsiBtn : Public, Static
+    System.Windows.Forms.Button icedteaBtn : Public, Static
+    System.Windows.Forms.Button spriteBtn : Public, Static
+    System.Windows.Forms.Button cokeBtn : Public, Static
+    System.Windows.Forms.Button riceBtn : Public, Static
+    System.Windows.Forms.Button checkoutBtn : Public, Static
+    System.Windows.Forms.Button orderagainBtn : Public, Static
+    System.Windows.Forms.ListView summarizedOrder : Public, Static
+  Methods:
+    TotalPriceHandler(): PrivateScope, Public, Static, HideBySig
+    ChickenButtonHandler(): PrivateScope, Public, HideBySig
+    MouseDownEventHandler(MouseEventArgs, Label, Int32 IsConst, Int32& IsExplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ButteredButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    FriedButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SpicyButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    RoastedButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CokeButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SpriteButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IcedTeaButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    PepsiButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    RiceButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IsOrderingAndCheckout(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    LabelAdjuster(Label, Int32 IsConst, Int32 IsConst): PrivateScope, Public, HideBySig
+    ButtonFunction(MouseEventArgs, Product, ListViewItem, Label, Int32& IsExplicitlyDereferenced, Int32 IsConst): PrivateScope, Public, HideBySig
+    OrderingButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CheckOutButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LabelGiver(): PrivateScope, Public, HideBySig
+    DataInsertion(Product): PrivateScope, Public, HideBySig
+    ButtonClickDataInseration(Product, Int32): PrivateScope, Public, HideBySig
+Class ProjectEve.Pasta: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Once : Public
+    System.Windows.Forms.PictureBox pictureBox1 : Public
+    System.Windows.Forms.ColumnHeader Food : Public
+    System.Windows.Forms.ColumnHeader Quantity : Public
+    System.Windows.Forms.ColumnHeader Price : Public
+    Product spaghettiStruct : Public, Static
+    Product carbonaraStruct : Public, Static
+    Product lasagnaStruct : Public, Static
+    Product bakedStruct : Public, Static
+    Product cokeStruct : Public, Static
+    Product spriteStruct : Public, Static
+    Product icedteaStruct : Public, Static
+    Product pepsiStruct : Public, Static
+    Int32 spaghettiPrice : Public, Static
+    Int32 carbonaraPrice : Public, Static
+    Int32 lasagnaPrice : Public, Static
+    Int32 bakedPrice : Public, Static
+    Int32 cokePrice : Public, Static
+    Int32 spritePrice : Public, Static
+    Int32 icedteaPrice : Public, Static
+    Int32 pepsiPrice : Public, Static
+    Int32 totalPrice : Public, Static
+    System.Windows.Forms.ListViewItem spaghettiItem : Public, Static
+    System.Windows.Forms.ListViewItem carbonaraItem : Public, Static
+    System.Windows.Forms.ListViewItem lasagnaItem : Public, Static
+    System.Windows.Forms.ListViewItem bakedItem : Public, Static
+    System.Windows.Forms.ListViewItem cokeItem : Public, Static
+    System.Windows.Forms.ListViewItem spriteItem : Public, Static
+    System.Windows.Forms.ListViewItem icedteaItem : Public, Static
+    System.Windows.Forms.ListViewItem pepsiItem : Public, Static
+    Int32 origSpaghettinLeftPosition : Public, Static
+    Int32 origCarbonaraLeftPosition : Public, Static
+    Int32 origLasagnaLeftPosition : Public, Static
+    Int32 origBakedMacLeftPosition : Public, Static
+    Int32 origCokeLeftPosition : Public, Static
+    Int32 origSpriteLeftPosition : Public, Static
+    Int32 origIcedTeaLeftPosition : Public, Static
+    Int32 origPepsiLeftPosition : Public, Static
+    Int32 totalDataPrice : Public, Static
+    System.Windows.Forms.Label bakedmacQuantity : Public, Static
+    System.Windows.Forms.Label lasagnaQuantity : Public, Static
+    System.Windows.Forms.Label carbonaraQuantity : Public, Static
+    System.Windows.Forms.Label spaghettiQuantity : Public, Static
+    System.Windows.Forms.Label pepsiQuantity : Public, Static
+    System.Windows.Forms.Label icedteaQuantity : Public, Static
+    System.Windows.Forms.Label spriteQuantity : Public, Static
+    System.Windows.Forms.Label cokeQuantity : Public, Static
+    System.Windows.Forms.Label label1 : Public, Static
+    System.Windows.Forms.Label totalLabel : Public, Static
+    System.Windows.Forms.Button lasagnaBtn : Public, Static
+    System.Windows.Forms.Button carbonaraBtn : Public, Static
+    System.Windows.Forms.Button spaghettiBtn : Public, Static
+    System.Windows.Forms.Button bakedmacBtn : Public, Static
+    System.Windows.Forms.Button pepsiBtn : Public, Static
+    System.Windows.Forms.Button icedteaBtn : Public, Static
+    System.Windows.Forms.Button spriteBtn : Public, Static
+    System.Windows.Forms.Button cokeBtn : Public, Static
+    System.Windows.Forms.Button orderagainBtn : Public, Static
+    System.Windows.Forms.Button checkoutBtn : Public, Static
+    System.Windows.Forms.ListView summarizedOrder : Public, Static
+  Methods:
+    TotalPriceHandler(): PrivateScope, Public, Static, HideBySig
+    PastaButtonHandler(): PrivateScope, Public, HideBySig
+    MouseDownEventHandler(MouseEventArgs, Label, Int32 IsConst, Int32& IsExplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ButtonFunction(MouseEventArgs, Product, ListViewItem, Label, Int32& IsExplicitlyDereferenced, Int32 IsConst): PrivateScope, Public, HideBySig
+    SpaghettiButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CarbonaraButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    LasagnaButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    BakedMacButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CokeButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SpriteButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IcedTeaButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    PepsiButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IsOrderingAndCheckout(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    LabelAdjuster(Label, Int32 IsConst, Int32 IsConst): PrivateScope, Public, HideBySig
+    OrderingButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CheckOutButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LabelGiver(): PrivateScope, Public, HideBySig
+    DataInsertion(Product): PrivateScope, Public, HideBySig
+    ButtonClickDataInseration(Product, Int32): PrivateScope, Public, HideBySig
+Class ProjectEve.RiceMeals: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Once : Public
+    System.Windows.Forms.ColumnHeader Food : Public
+    System.Windows.Forms.ColumnHeader Quantity : Public
+    System.Windows.Forms.ColumnHeader Price : Public
+    System.Windows.Forms.PictureBox pictureBox1 : Public
+    Product burgerSteakStruct : Public, Static
+    Product siomaiRiceStruct : Public, Static
+    Product alaKingStruct : Public, Static
+    Product sisigRiceStruct : Public, Static
+    Product cokeStruct : Public, Static
+    Product spriteStruct : Public, Static
+    Product icedteaStruct : Public, Static
+    Product pepsiStruct : Public, Static
+    Product riceStruct : Public, Static
+    Int32 burgerSteakPrice : Public, Static
+    Int32 siomaiRicePrice : Public, Static
+    Int32 alaKingPrice : Public, Static
+    Int32 sisigRicePrice : Public, Static
+    Int32 cokePrice : Public, Static
+    Int32 spritePrice : Public, Static
+    Int32 icedteaPrice : Public, Static
+    Int32 pepsiPrice : Public, Static
+    Int32 ricePrice : Public, Static
+    Int32 totalPrice : Public, Static
+    System.Windows.Forms.ListViewItem burgeetSteakItem : Public, Static
+    System.Windows.Forms.ListViewItem siomaRiceItem : Public, Static
+    System.Windows.Forms.ListViewItem alaKingItem : Public, Static
+    System.Windows.Forms.ListViewItem sisigRiceItem : Public, Static
+    System.Windows.Forms.ListViewItem cokeItem : Public, Static
+    System.Windows.Forms.ListViewItem spriteItem : Public, Static
+    System.Windows.Forms.ListViewItem icedteaItem : Public, Static
+    System.Windows.Forms.ListViewItem pepsiItem : Public, Static
+    System.Windows.Forms.ListViewItem riceItem : Public, Static
+    Int32 origBurgerSteakLeftPosition : Public, Static
+    Int32 origSiomaiRicePosition : Public, Static
+    Int32 origAlaKingLeftPosition : Public, Static
+    Int32 origSisigRiceLeftPosition : Public, Static
+    Int32 origCokeLeftPosition : Public, Static
+    Int32 origSpriteLeftPosition : Public, Static
+    Int32 origIcedTeaLeftPosition : Public, Static
+    Int32 origPepsiLeftPosition : Public, Static
+    Int32 origRiceLeftPosition : Public, Static
+    Int32 totalDataPrice : Public, Static
+    System.Windows.Forms.Label sisigRiceQuantity : Public, Static
+    System.Windows.Forms.Label alaKingQuantity : Public, Static
+    System.Windows.Forms.Label siomaRiceQuantity : Public, Static
+    System.Windows.Forms.Label burgerSteakQuantity : Public, Static
+    System.Windows.Forms.Label pepsiQuantity : Public, Static
+    System.Windows.Forms.Label icedteaQuantity : Public, Static
+    System.Windows.Forms.Label spriteQuantity : Public, Static
+    System.Windows.Forms.Label cokeQuantity : Public, Static
+    System.Windows.Forms.Label label1 : Public, Static
+    System.Windows.Forms.Label totalLabel : Public, Static
+    System.Windows.Forms.Label riceQuantity : Public, Static
+    System.Windows.Forms.Button alaKingBtn : Public, Static
+    System.Windows.Forms.Button siomaRiceBtn : Public, Static
+    System.Windows.Forms.Button burgerSteakBtn : Public, Static
+    System.Windows.Forms.Button sisigRiceBtn : Public, Static
+    System.Windows.Forms.Button pepsiBtn : Public, Static
+    System.Windows.Forms.Button icedteaBtn : Public, Static
+    System.Windows.Forms.Button spriteBtn : Public, Static
+    System.Windows.Forms.Button cokeBtn : Public, Static
+    System.Windows.Forms.Button orderagainBtn : Public, Static
+    System.Windows.Forms.Button checkoutBtn : Public, Static
+    System.Windows.Forms.Button riceBtn : Public, Static
+    System.Windows.Forms.ListView summarizedOrder : Public, Static
+  Methods:
+    TotalPriceHandler(): PrivateScope, Public, Static, HideBySig
+    RiceButtonHandler(): PrivateScope, Public, HideBySig
+    MouseDownEventHandler(MouseEventArgs, Label, Int32 IsConst, Int32& IsExplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ButtonFunction(MouseEventArgs, Product, ListViewItem, Label, Int32& IsExplicitlyDereferenced, Int32 IsConst): PrivateScope, Public, HideBySig
+    BurgerSteakButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SiomaiRiceButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    AlaKingButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SisigRiceButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    CokeButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SpriteButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IcedTeaButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    PepsiButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    RiceButtonClick(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    IsOrderingAndCheckout(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    LabelAdjuster(Label, Int32 IsConst, Int32 IsConst): PrivateScope, Public, HideBySig
+    OrderAgainButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CheckOutButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LabelGiver(): PrivateScope, Public, HideBySig
+    DataInsertion(Product): PrivateScope, Public, HideBySig
+    ButtonClickDataInseration(Product, Int32): PrivateScope, Public, HideBySig
+Class ProjectEve.AllFoodsPage1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AllFoodsButtonHandler(): PrivateScope, Public, HideBySig
+    Update(Product, ListView, ListViewItem, Int32& IsExplicitlyDereferenced, Label): PrivateScope, Public, HideBySig
+    BeefBurgerButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    ButteredChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    BakedMacButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    AlaKingButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    BurgerSteakButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.OrderingPage1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button burgerBtn : Public, Static
+    System.Windows.Forms.Button chickenBtn : Public, Static
+    System.Windows.Forms.Button pastaBtn : Public, Static
+  Methods:
+    OrderingPage1ButtonHandler(): PrivateScope, Public, HideBySig
+    BurgerButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    ChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    PastaButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.OrderingPage2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button riceMealsBtn : Public, Static
+  Methods:
+    OrderingPage2ButtonHandler(): PrivateScope, Public, HideBySig
+    RiceMealsButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.AllFoodsPage2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AllFoodsButtonHandler(): PrivateScope, Public, HideBySig
+    Update(Product, ListView, ListViewItem, Int32& IsExplicitlyDereferenced, Label): PrivateScope, Public, HideBySig
+    CheeseBurgerButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    FootLongButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    ChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    FriedChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CarbonaraButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.AllFoodsPage3: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AllFoodsButtonHandler(): PrivateScope, Public, HideBySig
+    Update(Product, ListView, ListViewItem, Int32& IsExplicitlyDereferenced, Label): PrivateScope, Public, HideBySig
+    HotDogButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    RoastedChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    LasagnaButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    SiomaiRiceButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    SisigRiceButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.AllFoodsPage4: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AllFoodsButtonHandler(): PrivateScope, Public, HideBySig
+    Update(Product, ListView, ListViewItem, Int32& IsExplicitlyDereferenced, Label): PrivateScope, Public, HideBySig
+    SpicyChickenButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    SpaghettiButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.Ordering: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ProjectEve.OrderingPage1 page1 : Public
+    ProjectEve.OrderingPage2 page2 : Public
+    ProjectEve.AllFoodsPage1 allPage1 : Public
+    ProjectEve.AllFoodsPage2 allPage2 : Public
+    ProjectEve.AllFoodsPage3 allpage3 : Public
+    ProjectEve.AllFoodsPage4 allpage4 : Public
+    Int32 cntMainProduct : Public
+    Int32 cntAllProduct : Public
+    System.Windows.Forms.Button blueLeft : Public, Static
+    System.Windows.Forms.Button blueRight : Public, Static
+    System.Windows.Forms.Button redLeft : Public, Static
+    System.Windows.Forms.Button redRight : Public, Static
+  Methods:
+    OrderingPanelHandler(): PrivateScope, Public, HideBySig
+    OrderingButtonsHandler(): PrivateScope, Public, HideBySig
+    CountMainProductPage(): PrivateScope, Public, HideBySig
+    BlueLeftButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    BlueRightButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    CountAllProductPage(): PrivateScope, Public, HideBySig
+    RedLeftButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    RedRightButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.OrderSummary: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ListTag list : Public
+    System.Windows.Forms.ColumnHeader Food : Public
+    System.Windows.Forms.ColumnHeader Quantity : Public
+    System.Windows.Forms.ColumnHeader Price : Public
+    System.Windows.Forms.Label totalLabel : Public, Static
+    System.Windows.Forms.Label transactionLabel : Public, Static
+    System.Windows.Forms.UserControl userControl : Public, Static
+    System.Windows.Forms.ListView summarizedOrder : Public, Static
+  Methods:
+    ButtonEventHandler(): PrivateScope, Public, HideBySig
+    BackButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    ConfirmButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    SetData(): PrivateScope, Public, Static, HideBySig
+    GenerateTransactionNumber(): PrivateScope, Public, Static, HideBySig
+Class ProjectEve.OrderConfirmation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ButtonHandler(): PrivateScope, Public, HideBySig
+    ConfirmButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    PasswordTextChange(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ProjectEve.OrderingPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel bodyPanel : Public
+    ProjectEve.Ordering ordering : Public, Static
+    ProjectEve.Burger burger : Public, Static
+    ProjectEve.Chicken chicken : Public, Static
+    ProjectEve.Pasta pasta : Public, Static
+    ProjectEve.RiceMeals riceMeals : Public, Static
+    ProjectEve.OrderSummary orderSummary : Public, Static
+    ProjectEve.OrderConfirmation orderConfirmation : Public, Static
+  Methods:
+    OrderingUserControls(): PrivateScope, Public, HideBySig
+Class ProjectEve.HomePage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.TrackingUserLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ListTag list : Public, Static
+    System.Windows.Forms.ListView transactionList : Public, Static
+  Methods:
+    ToolHandler(): PrivateScope, Public, HideBySig
+    SearchBoxTextChange(Object, EventArgs): PrivateScope, Public, HideBySig
+    AddData(String): PrivateScope, Public, Static, HideBySig
+Class ProjectEve.TrackingPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ProjectEve.TrackingUserLayout trackingLayout : Public
+  Methods:
+    PanelHandler(): PrivateScope, Public, HideBySig
+Class ProjectEve.HelpPageInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectEve.HelpPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ProjectEve.HelpPageInfo helppageinfo : Public
+  Methods:
+    SetPanels(): PrivateScope, Public, HideBySig
+Class ProjectEve.MainInterface: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ProjectEve.HomePage homePage : Public
+    System.Windows.Forms.Button orderingBtn : Public
+    System.Windows.Forms.Button aboutusBtn : Public
+    System.Windows.Forms.Button helpBtn : Public
+    System.Windows.Forms.Button trackingBtn : Public
+    System.Windows.Forms.Panel navPanel : Public
+    System.Windows.Forms.Button twitterBtn : Public
+    System.Windows.Forms.Button instagramBtn : Public
+    System.Windows.Forms.Button facebookBtn : Public
+    ProjectEve.OrderingPage orderingPage : Public
+    ProjectEve.TrackingPage trackingPage : Public
+    ProjectEve.HelpPage helpPage : Public
+    ProjectEve.AboutUsPage aboutPage : Public
+    ButtonClick buttonClick : Public
+    ListViewChange listViewChange : Public
+    ListViewItemChange listViewItemChange : Public
+    LabelChange labelChange : Public
+    System.Speech.Synthesis.SpeechSynthesizer synth : Public
+    System.Speech.Recognition.SpeechRecognizer recog : Public
+    Boolean isHomePage : Public
+    Boolean isOrderPage : Public
+    Boolean isTrackingPage : Public
+    Boolean isAboutPage : Public
+    Boolean isHelpPage : Public
+    LabelAdjustChange labelAdjustChange : Public
+    System.Windows.Forms.Panel headerPanel : Public
+    System.Windows.Forms.Panel bodyPanel : Public
+    System.Windows.Forms.Button homeBtn : Public
+  Methods:
+    PagesInterface(): PrivateScope, Public, HideBySig
+    MainButtonsHandler(): PrivateScope, Public, HideBySig
+    HomeButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    OrderingButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    TrackingButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    HelpButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    AboutButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    ExitButtonClick(Object, EventArgs): PrivateScope, Public, HideBySig
+    UIButtonWorker(Button): PrivateScope, Public, HideBySig
+    UIListViewWorker(ListView, ListViewItem, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    UIListViewItemWorker(ListView, ListViewItem, Product): PrivateScope, Public, HideBySig
+    UILabelWorker(Label, String): PrivateScope, Public, HideBySig
+    EveVoiceHandler(): PrivateScope, Public, HideBySig
+    SpeechRecognized(Object, SpeechRecognizedEventArgs): PrivateScope, Public, HideBySig
+    Update(Product, ListView, ListViewItem, Int32& IsExplicitlyDereferenced, Label, Int32): PrivateScope, Public, HideBySig
+    MainButtonsGrammars(Choices): PrivateScope, Public, HideBySig
+    MainButtonsCommands(String): PrivateScope, Public, HideBySig
+    OrderingPageMainProductsGrammars(Choices): PrivateScope, Public, HideBySig
+    OrderingPageMainProductsCommands(String): PrivateScope, Public, HideBySig
+    OrderingPageArrowsGrammars(Choices): PrivateScope, Public, HideBySig
+    OrderingPageArrowsCommands(String): PrivateScope, Public, HideBySig
+    NormalConversationGrammars(Choices): PrivateScope, Public, HideBySig
+    NormalConversationCommands(String): PrivateScope, Public, HideBySig
+    OrderingPageBurgerGrammars(Choices): PrivateScope, Public, HideBySig
+    OrderingPageBurgerCommands(String): PrivateScope, Public, HideBySig
+    UILabelAdjustWorker(Label, Int32 IsConst): PrivateScope, Public, HideBySig
+    LabelAdjust(Label, Int32 IsConst, Int32 IsConst): PrivateScope, Public, HideBySig
+    TotalPriceHandler(Label): PrivateScope, Public, HideBySig
+Class ProjectEve.MainInterface+ButtonClick: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Button): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Button, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ProjectEve.MainInterface+ListViewChange: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ListView, ListViewItem, Boolean(HasFieldMarshal)): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(ListView, ListViewItem, Boolean(HasFieldMarshal), AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ProjectEve.MainInterface+ListViewItemChange: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ListView, ListViewItem, Product): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(ListView, ListViewItem, Product, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ProjectEve.MainInterface+LabelChange: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Label, String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Label, String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ProjectEve.MainInterface+LabelAdjustChange: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Label, Int32 IsConst): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Label, Int32 IsConst, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ProjectEve.SplashScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Speech.Recognition.SpeechRecognizer recog : Public
+    System.Speech.Synthesis.SpeechSynthesizer synth : Public
+    ProjectEve.MainInterface mainInterface : Public
+    CloseSplashScreen closeSplashScreen : Public
+  Methods:
+    EveVoiceHandler(): PrivateScope, Public, HideBySig
+    SpeechRecognized(Object, SpeechRecognizedEventArgs): PrivateScope, Public, HideBySig
+    UICloseWorker(MainInterface, SplashScreen): PrivateScope, Public, HideBySig
+Class ProjectEve.SplashScreen+CloseSplashScreen: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(MainInterface, SplashScreen): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(MainInterface, SplashScreen, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
